@@ -90,38 +90,40 @@
                 </header>
             <!--/ header-->
 
+
+            <main>
             <!--hero-image-->
-            <section class="section__outer section__hero-image">
-                <ul class="hero-image__slider">
-                    <li class="hero-image__item">
-                        <div class="section__inner hero-image__item-content">
-`                           <h5>PLAN YOUR LIFE</h5>
-                            <h2>Increase your <span>productivity</span></h2>
-                            <div class="hero-image__text">
-                                Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
-                            </div>
-                            <div class="btn hero-image__button">
-                               <a href="#">
-                                   <div class="hero-image__icon">
+                <section class="section__outer section__hero-image">
+                    <ul class="hero-image__slider">
+                        <li class="hero-image__item">
+                            <div class="section__inner hero-image__item-content">
+    `                           <h5>PLAN YOUR LIFE</h5>
+                                <h2>Increase your <span>productivity</span></h2>
+                                <div class="hero-image__text">
+                                    Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+                                </div>
+                                <div class="btn hero-image__button">
+                                <a href="#">
+                                    <div class="hero-image__icon">
 
-                                   </div>
-                               </a>
+                                    </div>
+                                </a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
 
-                <ul class="dots">
-                    <li class="dots__item dots__item_active"></li>
-                    <li class="dots__item"></li>
-                    <li class="dots__item"></li>
-                </ul>
-                
-            </section>
+                    <ul class="dots">
+                        <li class="dots__item dots__item_active"></li>
+                        <li class="dots__item"></li>
+                        <li class="dots__item"></li>
+                    </ul>
+                    
+                </section>
             <!--/ hero-image-->
 
             <!--customers-->
-            <section class="section__outer section__customers">
+               <section class="section__outer section__customers">
                 <div class="section__inner">
                     <a href="#">
                         <img src="img/bitbucket.svg" alt="">
@@ -312,8 +314,10 @@
                                     </li>
                                 </ul>
 
-                                <a href="" class="btn-blog btn-blog--prev"></a>
-                                <a href="" class="btn-blog btn-blog--next"></a>
+                                <div class="slider-blog__btns">
+                                    <a href="" class="btn-blog btn-blog--prev"></a>
+                                    <a href="" class="btn-blog btn-blog--next"></a>
+                                </div>
                     </div>
 
             
@@ -328,9 +332,35 @@
             <!--/ blog-->
 
             <!--quotes-->
-            <section class="section__outer section__quotes">
+            <section class="section__outer section-quotes">
                 <div class="section__inner">
-                    quotes
+                    <div class="section-quotes__left">
+                        <h5>TESTIMONIALS</h5>
+                        <h3>Customers's quotes</h3>
+                        <div class="text">
+                            Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.
+                        </div>
+                    </div>
+
+                    <div class="section-quotes__right">
+                        <ul class="slider-quotes">
+                            <li class="slider-quotes__item">
+                                <div class="slider-quotes__text">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+
+                                </div>
+                                <div class="slider-quotes__photo">
+                                    <img src="img/Ellipse 2.1.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="dots">
+                            <li class="dots__item dots__item_active"></li>
+                            <li class="dots__item"></li>
+                            <li class="dots__item"></li>
+                        </ul>
+                    </div>
+                   
                 </div>
             </section>
             <!--/ quotes-->
@@ -338,7 +368,58 @@
             <!--faq-->
             <section class="section__outer section__faq">
                 <div class="section__inner">
-                    faq
+                    <h5 class="text-center">Customer help</h5>
+                    <h4 class="text-center">Frequently asked questions</h4>
+
+                    <ul class="faq-accordeon">
+                        <li class="faq-accordeon__item--active faq-accordeon__item">
+                            <div class="faq-accordeon__trigger">
+                                <div class="faq-accordeon__trigger-icon">
+                                    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M16 9L9 2L2 9" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        
+                                </div>
+                                <div class="faq-accordeon__trigger-text">
+                                    Lorem repudiandae ne nec?
+                                </div>
+                            </div>
+                            <div class="faq-accordeon__content">
+                                <div class="faq-accordeon__content-text">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+
+                                </div>
+                                <div class="faq-accordeon__content-btn">
+                                    <a class="btn btn--gray" href="#">Go to the Documentation</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="faq-accordeon__item">
+                            <div class="faq-accordeon__trigger">
+                                <div class="faq-accordeon__trigger-icon">
+                                    <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="arrow" d="M16 9L9 2L2 9" stroke="" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        
+                                </div>
+                                <div class="faq-accordeon__trigger-text">
+                                    Lorem repudiandae ne nec?
+                                </div>
+                            </div>
+                            <div class="faq-accordeon__content">
+                                <div class="faq-accordeon__content-text">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+
+                                </div>
+                                <div class="faq-accordeon__content-btn">
+                                    <a class="btn btn--gray" href="#">Go to the Documentation</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
                 </div>
             </section>
             <!--/ faq-->
@@ -346,16 +427,46 @@
             <!--get-started-->
             <section class="section__outer section__get-started">
                 <div class="section__inner">
-                    get-started
+                    <h5 class="text-center">PLAN YOUR LIFE</h5>
+                    <h2 class="text-center">Get <span>started</span> now</h2>
+
+                    <div class="text">
+                        Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+                    </div>
+
+                    <div class="btns plan__btns">
+                        <div class="plan__btn btn btn--secondary btn--secondary-inverted">
+                            <a href="#">View pricing</a>
+                        </div>
+                        <div class="plan__btn btn btn--no-bg btn--no-bg-inverted">
+                            <a href="#">Read documentation</a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section class="section__outer section__newsletter">
+            <section class="section__outer section-newsletter">
                 <div class="section__inner">
-                    newsletter
+                        <div class="section-newsletter__left">
+                            
+                            <div class="section-newsletter__left-title">
+                                Sign up for newsletter
+                            </div>
+                            <div class="section-newsletter__left-text">
+                                Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.
+                            </div>
+                        </div>
+                        <div class="section-newsletter__right">
+                            <form class="form__newsletter" action="">
+                                <input class="form__newsletter__input input input--size-lg" type="text" placeholder="Email address">
+                                <button class="form__newsletter__btn btn btn--size-lg btn--secondary">Save me</button>
+                            </form>
+                        </div>
                 </div>
             </section>
             <!--/newsletter-->
+
+        </main>
 
             <!--footer-->
             <footer class="section__outer section__footer">
