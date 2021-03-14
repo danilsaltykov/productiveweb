@@ -344,7 +344,7 @@ h2 {
 }
 
 .hero-image__item {
-  height: 570px;
+  height: auto;
   background: url("../img/bg.png") no-repeat;
   background-size: cover;
   background-position: 50% 100%;
